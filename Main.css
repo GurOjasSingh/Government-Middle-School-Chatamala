@@ -1,0 +1,76 @@
+.sidebar {
+    height: 100%;
+    width: 230px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #3c1c00;
+    overflow-x: hidden;
+    padding-top: 16px;
+    cursor:url(myBall.cur),auto;
+  }
+  
+  .sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .sidebar a:hover {
+    color: #eddbcc;
+  }
+  .sidebar ul li {
+    color: #818181 ;
+  }
+  body{
+    background:linear-gradient(45deg, #ffecd2 0%, #fcb69f 100%);
+  }
+  .main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    padding: 0px 65px;
+    font-family: 'Times New Roman', Times, serif;
+    
+  }
+  .main h2,h3,h4,h5,h6{
+    font-size: xx-large;
+    font-family:'Arial Narrow Bold', serif;
+    }
+  .main p ul li{
+    font-size: medium;
+  }
+    .contacts{
+     font-size: 30px;
+     font-family: 'Times New Roman', Times, serif;
+     text-decoration-color: #612718;
+    }
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+  div{
+    height: auto;
+    width: auto;
+  }
+table, th, td {
+  border:1px solid black;
+}
+table{
+  width: 100%
+}
+.float-container {
+  padding: 20px;
+}
+
+.float-child {
+  width: 46.5%;
+  float: left;
+  padding: 20px;
+} 
+hr{
+  color: black;
+} 
